@@ -1,4 +1,12 @@
 <?php
+$greeting = "Hello";
+$name = "John Doe";
 
-$greeting = "Hello World";
-echo $greeting;
+echo 'Hello, $name';
+echo "<br>";
+echo "Hello, $name";
+echo "<br>";
+echo "Hello, ".$name;
+echo "<br>";
+echo "{$greeting} , {$name}";
+
