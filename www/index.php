@@ -8,14 +8,16 @@
     <title>Document</title>
     <style>
         h1 {
-            background-color: ;
+            background-color: #e3e3e3;
             padding: 2em;
             text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1><?= "Hello, ".$_GET['name']  ?></h1>
+    <h1>
+        <?= "Hello, ".htmlspecialchars($_GET['name']) ?>
+    </h1>
 </body>
 </html>
 
